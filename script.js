@@ -139,6 +139,7 @@ if (q6.toLowerCase() === "a") {
   sanity -= 10;
 }
 alert("Akıl Sağlığı: " + sanity + "/100");
+
 //sahne 6: halisünasyon
 if (sanity < 60 && silahVar) {
   alert(
@@ -149,11 +150,9 @@ if (sanity < 60 && silahVar) {
   if (s1.toLowerCase() === "a") {
     alert("Tetiği çekiyorsun. Karaltı yere düşüyor.");
     alert(
-      "Yaklaştığında... bu bir adam değilmiş.\nKorkmuş bir" +
-        "" +
+      "Yaklaştığında... bu bir adam değilmiş.\nKorkmuş bir " +
         animal +
-        "" +
-        "Sana bakıyor hâlâ."
+        " sana bakıyor.."
     );
     alert("Yıkılıyorsun. Gerçeği göremedin.");
     sanity -= 30;
@@ -163,12 +162,16 @@ if (sanity < 60 && silahVar) {
 
     if (s2.toLowerCase() === "a") {
       alert(
-        "Tetiği çekiyorsun. Varlık yere düşüyor.\nYine... bir" + animal + "" + ".\nYine... bir pişmanlık."
+        "Tetiği çekiyorsun. Varlık yere düşüyor.\nYine... bir " +
+          animal +
+          ".\nYine... bir pişmanlık."
       );
       sanity -= 20;
     } else if (s2.toLowerCase() === "b") {
       alert(
-        "Silahı indiriyorsun. Karaltı yaklaşıyor.\nYaralı bir" + animal + "" + "seni kokluyor.\nKorkmamış. Sadece yalnızmış."
+        "Silahı indiriyorsun. Karaltı yaklaşıyor.\nYaralı bir " +
+          animal +
+          " seni kokluyor.\nKorkmamış. Sadece yalnızmış."
       );
       alert("Gerçeği zamanında fark ettin.");
       sanity += 30;
@@ -182,7 +185,7 @@ if (sanity < 60 && silahVar) {
   }
 } else {
   alert(
-    "Karanlıktan bir" +
+    "Karanlıktan bir " +
       animal +
       " beliriyor.\nGözleri kocaman. Korkmuş ama zararsız."
   );
@@ -215,6 +218,7 @@ if (q7.toLowerCase() === "a") {
   alert("Zaman seninle dalga geçiyor. Kapı buharlaşıyor.");
   sanity -= 15;
 }
+
 // Final
 alert("Son Akıl Sağlığı: " + sanity + "/100");
 if (sanity >= 60) {
