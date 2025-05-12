@@ -162,9 +162,9 @@ if (sanity < 60 && silahVar) {
 
     if (s2.toLowerCase() === "a") {
       alert(
-        "Tetiği çekiyorsun. Varlık yere düşüyor.\nYine... bir " +
+        "Tetiği çekiyorsun. Varlık yere düşüyor.\n bir " +
           animal +
-          ".\nYine... bir pişmanlık."
+          ".\n pişmanlık duyuyorsun.. \n Akıl sağlığını iyice kaybediyorsun.."
       );
       sanity -= 20;
     } else if (s2.toLowerCase() === "b") {
